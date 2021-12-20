@@ -180,9 +180,6 @@ if __name__ == '__main__':
     parser.add_argument('--validation-fraction', dest='validation_fraction', type=float, required=False,
                         default=0.2, help='proportion of data for validation')
 
-    parser.add_argument('--batch-size', dest='batch', type=int, required=False,
-                        default=64, help='batch size')
-
     parser.add_argument('--data-seed', dest='data_seed', type=int, required=False,
                         default=None, help='random seed for spliting data')
 
